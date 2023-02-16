@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: rgb(241, 241, 241);
+}
+body main {
+  margin-top: 2rem;
+}
+body main h1 {
+  text-align: center;
+}
+body main .goal {
+  margin-top: 3rem;
+  text-align: center;
+}
+body main .goal h2 {
+  text-align: center;
+}
+body main .goal ul {
+  margin-top: 1.2rem;
+  display: inline-block;
+  text-align: left;
+  padding-left: 3rem;
+}
+body main .goal ul li {
+  display: block;
+  padding-bottom: 0.5rem;
+}
+body main .goal ul a {
+  color: rgb(46, 94, 160);
+}
+body main .randomArea {
+  margin-top: 3rem;
+}
+body main .randomArea h2 {
+  text-align: center;
+}
+body main .randomArea .members {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+body main .randomArea .members li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+}
+body main .randomArea .members li .getNumBtn {
+  margin-top: 0.5rem;
+}
+body main .randomArea .showMembersBtn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+body main .groupArea {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+body main .groupArea h2 {
+  margin-bottom: 1rem;
+  background-color: rgb(229, 229, 206);
+  padding: 0.5rem 1rem;
+}
+body main .groupArea h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+body main .groupArea ul {
+  margin: 0.8rem 0;
+}
+body main .groupArea ul li {
+  margin-bottom: 0.5rem;
+}
+body main button {
+  cursor: pointer;
+  padding: 5px;
+}
+body main .test {
+  margin-top: 2rem;
+}
+body main .test div {
+  text-align: center;
+}/*# sourceMappingURL=all.css.map */
